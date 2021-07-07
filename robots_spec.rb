@@ -23,7 +23,7 @@ RSpec.describe Movements do
   end
 
   describe "Case 4" do
-    it "Returns true for case 3" do
+    it "Returns true for case 4" do
       movements = Movements.new
       expect(movements.path_finder("UD")).to eq(true)
     end
