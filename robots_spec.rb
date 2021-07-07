@@ -36,7 +36,7 @@ RSpec.describe Movements do
     end
   end
 
-  # Last case if failing, trying to understand why.
+  # Last case is failing, trying to understand why.
   describe "Case 6" do
     it "Returns true for case 6" do
       movements = Movements.new
